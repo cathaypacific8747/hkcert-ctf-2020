@@ -1,0 +1,92 @@
+<style>img{position:absolute;top:0}
+.glow {
+  font-size: 500pt;
+  color: #fff;
+  letter-spacing: -50pt;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}</style>
+<body bgcolor=0 style=background:url(flag.jpg);margin:50em;width:500%>
+<button id=s onclick=start() style="font-size:500pt">START</button>
+<div id=r style=display:none><title>Tuning Keyboard</title>
+<img id=o src=0.jpg style=left:0;transform:scale(1,1)>
+<img id=d src=0.jpg style=left:500;transform:scale(-1,1)>
+<img id=e src=0.jpg style=left:1000;transform:scale(1,1)>
+<img id=a src=0.jpg style=left:1500;transform:scale(-1,1)>
+<img id=t src=0.jpg style=left:2000;transform:scale(1,1)>
+<img id=h src=0.jpg style=left:2500;transform:scale(-1,1)>
+<div id=q class=glow style=width:2500;overflow-y:hidden;margin-left:-500pt>
+<script>
+	var key = [1900,100,850,100,3850,2230,1200,120,2570,950,430,1650,550,300,20,450,4360,1930,2060,730,1190,710,2350,750];
+	var k = 0; 
+	var ok = 0;
+	var dk = 0;
+	var ek = 0;
+	var ak = 0;
+	var tk = 0;
+	var hk = 0;
+
+	function start(){
+		s.style.display='none';
+		r.style.display='inline';
+		setTimeout('keypad()',key[k]);
+		setTimeout('oo()',50);
+		setTimeout('dd()',70);
+		setTimeout('ee()',110);
+		setTimeout('aa()',130);
+		setTimeout('tt()',170);
+		setTimeout('hh()',190);
+	}
+
+	function keypad(){
+		q.innerText += 'DEATH'[Math.floor(Math.random()*5)];  //''+ok+''+dk+''+ek+''+ak+''+tk+''+hk;
+		k++;
+		if(k<key.length){
+			setTimeout('keypad()',key[k]);			
+		}else{
+			setTimeout('location="http://youtu.be/o1UcRXTXmN4"',8650);
+		}
+
+	}
+	
+	function oo(){
+		ok = (ok+1)%2;
+		o.src = ok+".jpg";
+		setTimeout("oo()",50);
+	}
+	function dd(){
+		dk = (dk+1)%2;
+		d.src = dk+".jpg";
+		setTimeout("dd()",70);
+	}
+	function ee(){
+		ek = (ek+1)%2;
+		e.src = ek+".jpg";
+		setTimeout("ee()",110);
+	}
+	function aa(){
+		ak = (ak+1)%2;
+		a.src = ak+".jpg";
+		setTimeout("aa()",130);
+	}
+	function tt(){
+		tk = (tk+1)%2;
+		t.src = tk+".jpg";
+		setTimeout("tt()",170);
+	}
+	function hh(){
+		hk = (hk+1)%2;
+		h.src = hk+".jpg";
+		setTimeout("hh()",190);
+	}
+</script>

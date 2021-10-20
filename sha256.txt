@@ -1,0 +1,24 @@
+C:\Users\abrah\Downloads>py chall.py
+[cmd] spy
+[pbox] [0,-20,1,-19,2,-18,3,-17,4,-16,5,-15,-1,-2,-3,-4,16,17,18,19]
+[salt] ICAgIA==
+b'dPldEbAcj2gzX4+5'
+b'dPldEbAcj2gzX4+5    '
+b'ddPPllddEEbb        '
+[hash] bfc06c74ce33a7150448b1d7925ed39a6a498bd72cf8e5d97dcb1d088eebf5d5
+[cmd] spy
+[pbox] [6,-14,7,-13,8,-12,9,-11,10,-10,11,-9,-1,-2,-3,-4,16,17,18,19]
+[salt] ICAgIA==
+b'dPldEbAcj2gzX4+5'
+b'dPldEbAcj2gzX4+5    '
+b'AAccjj22ggzz        '
+[hash] c96577acb1412e0f1357e4a50cfd625efe3f9cf81eef98be46dbf6f40737c644
+[cmd] spy
+[pbox] [12,-8,13,-7,14,-6,15,-5,0,-20,1,-19,-1,-2,-3,-4,16,17,18,19]
+[salt] ICAgIA==
+b'dPldEbAcj2gzX4+5'
+b'dPldEbAcj2gzX4+5    '
+b'XX44++55ddPP        '
+[hash] c37cbc2f11bb80a842cdc19ac6564296d933a38c16f6fb0ca43335fe6642bdf6
+
+-1 ?u?l?d+/ -2 ?1?1?1?1?1?1 -3 ?1?1?1?1 ?2 $_$_$_$_$_$_$_$_
