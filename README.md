@@ -5,8 +5,10 @@ The main aim of this repository is for storage purposes. You can take a look at 
 
 Generally, programming experience will be very helpful in the competition - most challenges will require you to analyse code (Python/Java/C), decompile and reverse engineer programs (EXEs) with Ghidra, network packets (pcap) with Wireshark, and overall write some code to get the flag. The entire process was an emotional rollercoaster, but it was super fun :)
 
+We won the Silver Award, thanks to our leader Walter who carried us during the entire competition.
+
 ## Members of the competition
+- **LEADER** - Walter Kwong (@walterkwong)
 - Abraham Cheung (@cathaypacific8747)
-- Walter Kwong (@walterkwong)
 - Edward Cheung
 - Timothy Ho
